@@ -1,0 +1,22 @@
+{
+  "name": "nodebb-plugin-deu-announcements",
+  "version": "0.1.0",
+  "description": "Dokuz Eylül Üniversitesi ana ve fakülte duyurularını gösteren NodeBB widget eklentisi",
+  "main": "library.js",
+  "scripts": {
+    "test": "mocha test/ --recursive"
+  },
+  "keywords": ["nodebb", "plugin", "widget", "deu", "duyuru"],
+  "author": "heudev <hulkienesuysal@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "cheerio": "^1.0.0",
+    "rss-parser": "^3.13.0"
+  },
+  "devDependencies": {
+    "mocha": "^10.4.0"
+  },
+  "nbbpm": {
+    "compatibility": "^3.0.0"
+  }
+}

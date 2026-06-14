@@ -1,0 +1,15 @@
+{
+  "id": "nodebb-plugin-deu-announcements",
+  "name": "DEÜ Duyuruları",
+  "description": "Dokuz Eylül Üniversitesi ana ve fakülte duyurularını widget olarak gösterir.",
+  "url": "https://github.com/heudev/nodebb-plugin-deu-announcements",
+  "library": "./library.js",
+  "hooks": [
+    { "hook": "static:app.load", "method": "init" },
+    { "hook": "filter:widgets.getWidgets", "method": "defineWidgets" },
+    { "hook": "filter:admin.header.build", "method": "addAdminNavigation" }
+  ],
+  "scripts": ["static/lib/client.js"],
+  "less": ["static/style.less"],
+  "templates": "static/templates"
+}
