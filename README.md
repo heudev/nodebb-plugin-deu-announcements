@@ -22,6 +22,8 @@ widget olarak gösterir.
 | edebiyat | Edebiyat |
 | fen | Fen |
 | isletme | İşletme |
+| ogrenci | Öğrenci İşleri Daire Başkanlığı |
+| sks | Sağlık Kültür ve Spor (SKS) Daire Başkanlığı |
 | muhendislik | Mühendislik *(varsayılan kapalı — erişim doğrulanınca açın)* |
 
 ## Kurulum

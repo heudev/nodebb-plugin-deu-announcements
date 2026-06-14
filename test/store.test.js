@@ -35,6 +35,27 @@ describe('store', () => {
     assert.ok(!titles.includes('B1'), 'eski B1 değişmeli');
   });
 
+  it('tarihsiz duyuruları kaynaklar arası round-robin harmanlar', () => {
+    store.update({
+      announcements: [
+        item('a', 'A1', 0), item('a', 'A2', 0), item('a', 'A3', 0),
+        item('b', 'B1', 0), item('b', 'B2', 0),
+      ],
+      status: { a: { ok: true, count: 3 }, b: { ok: true, count: 2 } },
+    });
+    const titles = store.get().map(x => x.title);
+    // ilk iki sıra farklı kaynaklardan gelmeli (tek kaynak baskın olmamalı)
+    assert.deepStrictEqual(titles.slice(0, 4), ['A1', 'B1', 'A2', 'B2']);
+  });
+
+  it('tarihli duyurular round-robin\'e rağmen üste çıkar', () => {
+    store.update({
+      announcements: [item('a', 'A1', 0), item('b', 'B1', 500)],
+      status: { a: { ok: true, count: 1 }, b: { ok: true, count: 1 } },
+    });
+    assert.strictEqual(store.get()[0].title, 'B1');
+  });
+
   it('getStatus son çalışmayı döner', () => {
     store.update({ announcements: [], status: { a: { ok: true, count: 0 } } });
     assert.ok(store.getStatus().time > 0);
