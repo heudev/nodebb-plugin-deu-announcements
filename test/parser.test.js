@@ -33,6 +33,28 @@ describe('parseHtml', () => {
   });
 });
 
+describe('parseHtml — anchor-as-item', () => {
+  const anchorSource = {
+    id: 'tip', name: 'Tıp', faculty: 'tip', url: 'https://tip.deu.edu.tr/duyurular/',
+    selectors: { item: 'a[href*="/duyurular/"]' },
+  };
+  const anchorHtml = `<html><body>
+    <a href="https://tip.deu.edu.tr/duyurular/">Tüm Duyurular</a>
+    <a href="https://tip.deu.edu.tr/duyurular/sinav/">Sınav programı</a>
+    <a href="https://tip.deu.edu.tr/duyurular/sinav/">Sınav programı</a>
+    <a href="https://tip.deu.edu.tr/duyurular/burs/">Burs ilanı</a>
+  </body></html>`;
+  const items = parseHtml(anchorHtml, anchorSource);
+  it('anchor item link ve başlığı çıkarır', () => {
+    assert.strictEqual(items[0].title, 'Sınav programı');
+    assert.strictEqual(items[0].link, 'https://tip.deu.edu.tr/duyurular/sinav/');
+  });
+  it('index linkini atlar ve tekrarları temizler', () => {
+    assert.strictEqual(items.length, 2); // index + dup elendi
+    assert.ok(!items.some(i => i.title === 'Tüm Duyurular'));
+  });
+});
+
 describe('parseRss', () => {
   it('feed öğesini normalize eder', async () => {
     const items = await parseRss(xml, rssSource);
