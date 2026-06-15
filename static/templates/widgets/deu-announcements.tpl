@@ -18,7 +18,7 @@
 	<!-- IF hasAnnouncements -->
 	<ul class="deu-list">
 		<!-- BEGIN announcements -->
-		<li class="deu-item deu-f-{announcements.faculty}" data-faculty="{announcements.faculty}">
+		<li class="deu-item deu-c-{announcements.category}" data-category="{announcements.category}">
 			<a class="deu-item-title" href="{announcements.link}" target="_blank" rel="noopener noreferrer">{announcements.title}</a>
 			<span class="deu-meta">
 				<span class="deu-dot"></span>

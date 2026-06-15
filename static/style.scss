@@ -74,10 +74,13 @@
 	.deu-date { display: inline-flex; align-items: center; gap: .25rem; }
 	.deu-date::before { content: "·"; margin-right: .1rem; opacity: .6; }
 
-	.deu-f-main { --deu-dot: #8c1d40; } .deu-f-iibf { --deu-dot: #1d6f42; } .deu-f-hukuk { --deu-dot: #6f42c1; }
-	.deu-f-muhendislik { --deu-dot: #b35900; } .deu-f-tip { --deu-dot: #c0392b; } .deu-f-edebiyat { --deu-dot: #117a8b; }
-	.deu-f-fen { --deu-dot: #2a6fb0; } .deu-f-isletme { --deu-dot: #5a6268; } .deu-f-ogrenci { --deu-dot: #0b7285; }
-	.deu-f-sks { --deu-dot: #ad6800; }
+	// Kategori bazlı rozet/nokta renkleri
+	.deu-c-ana { --deu-dot: #8c1d40; }
+	.deu-c-fakulte { --deu-dot: #00457c; }
+	.deu-c-enstitu { --deu-dot: #1d6f42; }
+	.deu-c-yuksekokul { --deu-dot: #6f42c1; }
+	.deu-c-myo { --deu-dot: #b35900; }
+	.deu-c-birim { --deu-dot: #0b7285; }
 
 	.deu-empty {
 		padding: 2.2rem 1rem; text-align: center; color: var(--deu-muted);

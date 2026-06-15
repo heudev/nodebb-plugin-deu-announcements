@@ -13,6 +13,16 @@ const plugin = {};
 const SETTINGS_HASH = 'deu-announcements';
 const MORE_LINK = 'https://www.deu.edu.tr/tum-duyurular/';
 
+// Widget sekme kategorileri (sabit görünüm sırası)
+const CATEGORY_ORDER = [
+  { id: 'ana', name: 'Ana' },
+  { id: 'fakulte', name: 'Fakülteler' },
+  { id: 'enstitu', name: 'Enstitüler' },
+  { id: 'yuksekokul', name: 'Yüksekokullar' },
+  { id: 'myo', name: 'MYO' },
+  { id: 'birim', name: 'Birimler' },
+];
+
 let appRef = null;
 
 plugin.init = async function (params) {
@@ -72,15 +82,11 @@ plugin.renderWidget = async function (widget) {
     relativeDate: a.date ? relativeDate(a.date, now) : '',
   }));
 
-  // Görünen duyurulardaki benzersiz kaynaklardan sekme üret (ilk görülme sırasıyla)
-  const seen = new Set();
-  const tabs = [];
-  announcements.forEach((a) => {
-    if (!seen.has(a.faculty)) {
-      seen.add(a.faculty);
-      tabs.push({ id: a.faculty, name: a.sourceName });
-    }
-  });
+  // Kategori bazlı sekmeler (sabit sıra + etiket), yalnızca veri olanlar
+  const present = new Set(announcements.map(a => a.category));
+  const tabs = CATEGORY_ORDER
+    .filter(c => present.has(c.id))
+    .map(c => ({ id: c.id, name: c.name }));
 
   widget.html = await renderTemplate('widgets/deu-announcements', {
     title: (widget.data && widget.data.title) || 'DEÜ Duyuruları',

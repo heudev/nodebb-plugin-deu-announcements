@@ -15,7 +15,7 @@ $(document).ready(function () {
 
 			let visible = 0;
 			$items.each(function () {
-				const show = filter === 'all' || $(this).attr('data-faculty') === filter;
+				const show = filter === 'all' || $(this).attr('data-category') === filter;
 				$(this).toggleClass('hidden', !show);
 				if (show) { visible += 1; }
 			});
