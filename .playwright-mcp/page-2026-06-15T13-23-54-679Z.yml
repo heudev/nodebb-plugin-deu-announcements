@@ -1,0 +1,1348 @@
+- generic [active] [ref=e1]:
+  - link "İçeriğe atla" [ref=e2] [cursor=pointer]:
+    - /url: "#content"
+  - generic [ref=e3]:
+    - navigation [ref=e4]:
+      - list [ref=e5]:
+        - listitem [ref=e6]:
+          - button "Kategoriler" [ref=e7] [cursor=pointer]:
+            - generic [ref=e10]: 
+          - text:      
+        - listitem [ref=e11]:
+          - link "Öğrenci Fırsatları" [ref=e12] [cursor=pointer]:
+            - /url: /firsat
+            - generic [ref=e15]: 
+        - listitem [ref=e16]:
+          - link "CV oluşturucu" [ref=e17] [cursor=pointer]:
+            - /url: /nextcv
+            - generic [ref=e20]: 
+        - listitem [ref=e21]:
+          - link "Güncel" [ref=e22] [cursor=pointer]:
+            - /url: /recent
+            - generic [ref=e25]: 
+        - listitem [ref=e26]:
+          - link "Etiketler" [ref=e27] [cursor=pointer]:
+            - /url: /tags
+            - generic [ref=e30]: 
+        - listitem [ref=e31]:
+          - link "Popüler" [ref=e32] [cursor=pointer]:
+            - /url: /popular
+            - generic [ref=e35]: 
+        - listitem [ref=e36]:
+          - link "Kullanıcılar" [ref=e37] [cursor=pointer]:
+            - /url: /users
+            - generic [ref=e40]: 
+        - listitem [ref=e41]:
+          - link "Gruplar" [ref=e42] [cursor=pointer]:
+            - /url: /groups
+            - generic [ref=e45]: 
+        - listitem [ref=e46]:
+          - link "Akademik Takvim" [ref=e47] [cursor=pointer]:
+            - /url: /akademik-takvim
+            - generic [ref=e50]: 
+      - button "Yan menü değiştirici" [ref=e53] [cursor=pointer]:
+        - generic [ref=e54]: 
+        - text: 
+    - main [ref=e55]:
+      - generic [ref=e57]:
+        - generic [ref=e58]:
+          - link "DEU Forum – Dokuz Eylül Üniversitesi Öğrenci Topluluğu Platformu" [ref=e59] [cursor=pointer]:
+            - /url: https://dokuzeylul.net
+            - img "DEU Forum – Dokuz Eylül Üniversitesi Öğrenci Topluluğu Platformu" [ref=e60]
+          - link "DEU Forum" [ref=e61] [cursor=pointer]:
+            - /url: /
+            - heading "DEU Forum" [level=1] [ref=e62]
+        - generic "Temayı Değiştir" [ref=e64]:
+          - generic [ref=e66] [cursor=pointer]:
+            - img [ref=e67]
+            - img [ref=e69]
+      - generic [ref=e71]:
+        - generic [ref=e72]:
+          - generic [ref=e74]:
+            - link "" [disabled] [ref=e75] [cursor=pointer]:
+              - /url: "#"
+              - generic [ref=e76]: 
+            - generic [ref=e78]:
+              - tabpanel [ref=e79]:
+                - generic [ref=e83]:
+                  - generic [ref=e84]:
+                    - heading "MAT2011 Matematik III – Çıkmış Vize Sınavı (Aralık 2020)" [level=6] [ref=e86]:
+                      - link "MAT2011 Matematik III – Çıkmış Vize Sınavı (Aralık 2020)" [ref=e87] [cursor=pointer]:
+                        - /url: /topic/167/mat2011-matematik-iii-çıkmış-vize-sınavı-aralık-2020
+                    - generic [ref=e88]:
+                      - generic [ref=e89]:
+                        - link "M" [ref=e90] [cursor=pointer]:
+                          - /url: /user/mert.sahin
+                          - generic "mert.sahin" [ref=e91]: M
+                        - link "mert.sahin" [ref=e92] [cursor=pointer]:
+                          - /url: /user/mert.sahin
+                        - generic "14 Haz 2026 13:42" [ref=e93]: 1 gün önce
+                      - generic [ref=e94]:
+                        - link:
+                          - /url: /topic/167/mat2011-matematik-iii-çıkmış-vize-sınavı-aralık-2020
+                        - generic [ref=e95]:
+                          - paragraph [ref=e96]:
+                            - strong [ref=e97]: MAT2011 Matematik III
+                            - text: dersinin 11 Aralık 2020 tarihli 1. vize sınavı soruları.
+                          - list [ref=e98]:
+                            - listitem [ref=e99]:
+                              - strong [ref=e100]: "Tarih:"
+                              - text: 11 Aralık 2020
+                            - listitem [ref=e101]:
+                              - strong [ref=e102]: "Tür:"
+                              - text: 1. Vize soruları
+                          - paragraph [ref=e103]:
+                            - strong [ref=e104]: "Dosyalar (1):"
+                          - list [ref=e105]:
+                            - listitem [ref=e106]:
+                              - iframe [ref=e108]:
+                                
+                  - generic [ref=e109]:
+                    - link " Mühendislik" [ref=e111] [cursor=pointer]:
+                      - /url: /category/9/mühendislik
+                      - generic [ref=e112]: 
+                      - text: Mühendislik
+                    - generic [ref=e113]: 1 İleti
+                    - generic [ref=e114]: 0 Oy
+              - tabpanel [ref=e115]:
+                - generic [ref=e119]:
+                  - generic [ref=e120]:
+                    - heading "KIM1115 Kimya – Örnek Sınavlar (Arasınav 1-2, Final, Lab)" [level=6] [ref=e122]:
+                      - link "KIM1115 Kimya – Örnek Sınavlar (Arasınav 1-2, Final, Lab)" [ref=e123] [cursor=pointer]:
+                        - /url: /topic/166/kim1115-kimya-örnek-sınavlar-arasınav-1-2-final-lab
+                    - generic [ref=e124]:
+                      - generic [ref=e125]:
+                        - link "Z" [ref=e126] [cursor=pointer]:
+                          - /url: /user/zeynepkilic01
+                          - generic "zeynepkilic01" [ref=e127]: Z
+                        - link "zeynepkilic01" [ref=e128] [cursor=pointer]:
+                          - /url: /user/zeynepkilic01
+                        - generic "14 Haz 2026 13:42" [ref=e129]: 1 gün önce
+                      - generic [ref=e130]:
+                        - link:
+                          - /url: /topic/166/kim1115-kimya-örnek-sınavlar-arasınav-1-2-final-lab
+                        - generic [ref=e131]:
+                          - paragraph [ref=e132]:
+                            - strong [ref=e133]: KIM1115 Kimya
+                            - text: "dersine hazırlık için örnek sınavlar: 1. ve 2. arasınav, final ve laboratuvar."
+                          - list [ref=e134]:
+                            - listitem [ref=e135]:
+                              - strong [ref=e136]: "Tür:"
+                              - text: Örnek sınavlar (Arasınav 1-2, Final, Lab)
+                          - paragraph [ref=e137]:
+                            - strong [ref=e138]: "Dosyalar (4):"
+                          - list [ref=e139]:
+                            - listitem [ref=e140]:
+                              - iframe [ref=e142]:
+                                
+                            - listitem [ref=e143]:
+                              - iframe [ref=e145]:
+                                
+                            - listitem [ref=e146]:
+                              - iframe [ref=e148]:
+                                
+                            - listitem [ref=e149]:
+                              - iframe [ref=e151]:
+                                
+                  - generic [ref=e152]:
+                    - link " Mühendislik" [ref=e154] [cursor=pointer]:
+                      - /url: /category/9/mühendislik
+                      - generic [ref=e155]: 
+                      - text: Mühendislik
+                    - generic [ref=e156]: 1 İleti
+                    - generic [ref=e157]: 0 Oy
+              - tabpanel [ref=e158]:
+                - generic [ref=e162]:
+                  - generic [ref=e163]:
+                    - heading "KIM1115 Kimya – Çıkmış Sınavlar (Vize 1-2, Final)" [level=6] [ref=e165]:
+                      - link "KIM1115 Kimya – Çıkmış Sınavlar (Vize 1-2, Final)" [ref=e166] [cursor=pointer]:
+                        - /url: /topic/165/kim1115-kimya-çıkmış-sınavlar-vize-1-2-final
+                    - generic [ref=e167]:
+                      - generic [ref=e168]:
+                        - link "M" [ref=e169] [cursor=pointer]:
+                          - /url: /user/merve_99
+                          - generic "merve_99" [ref=e170]: M
+                        - link "merve_99" [ref=e171] [cursor=pointer]:
+                          - /url: /user/merve_99
+                        - generic "14 Haz 2026 13:42" [ref=e172]: 1 gün önce
+                      - generic [ref=e173]:
+                        - link:
+                          - /url: /topic/165/kim1115-kimya-çıkmış-sınavlar-vize-1-2-final
+                        - generic [ref=e174]:
+                          - paragraph [ref=e175]:
+                            - strong [ref=e176]: KIM1115 Kimya
+                            - text: dersinin çıkmış 1. vize, 2. vize ve final sınavları.
+                          - list [ref=e177]:
+                            - listitem [ref=e178]:
+                              - strong [ref=e179]: "Tür:"
+                              - text: 1. Vize, 2. Vize ve Final soruları
+                          - paragraph [ref=e180]:
+                            - strong [ref=e181]: "Dosyalar (3):"
+                          - list [ref=e182]:
+                            - listitem [ref=e183]:
+                              - iframe [ref=e185]:
+                                
+                            - listitem [ref=e186]:
+                              - iframe [ref=e188]:
+                                
+                            - listitem [ref=e189]:
+                              - iframe [ref=e191]:
+                                
+                  - generic [ref=e192]:
+                    - link " Mühendislik" [ref=e194] [cursor=pointer]:
+                      - /url: /category/9/mühendislik
+                      - generic [ref=e195]: 
+                      - text: Mühendislik
+                    - generic [ref=e196]: 1 İleti
+                    - generic [ref=e197]: 0 Oy
+              - tabpanel [ref=e198]:
+                - generic [ref=e202]:
+                  - generic [ref=e203]:
+                    - heading "İNŞ4026 Betonarme Eleman Dayanıklılığı – Çıkmış Sınavlar (Vize + Final Ödevi)" [level=6] [ref=e205]:
+                      - link "İNŞ4026 Betonarme Eleman Dayanıklılığı – Çıkmış Sınavlar (Vize + Final Ödevi)" [ref=e206] [cursor=pointer]:
+                        - /url: /topic/164/i̇nş4026-betonarme-eleman-dayanıklılığı-çıkmış-sınavlar-vize-final-ödevi
+                    - generic [ref=e207]:
+                      - generic [ref=e208]:
+                        - link "C" [ref=e209] [cursor=pointer]:
+                          - /url: /user/canturk
+                          - generic "canturk" [ref=e210]: C
+                        - link "canturk" [ref=e211] [cursor=pointer]:
+                          - /url: /user/canturk
+                        - generic "14 Haz 2026 13:42" [ref=e212]: 1 gün önce
+                      - generic [ref=e213]:
+                        - link:
+                          - /url: /topic/164/i̇nş4026-betonarme-eleman-dayanıklılığı-çıkmış-sınavlar-vize-final-ödevi
+                        - generic [ref=e214]:
+                          - paragraph [ref=e215]:
+                            - strong [ref=e216]: İNŞ4026 Betonarme Eleman Dayanıklılığı
+                            - text: dersinin 2020 dönemi ara sınavı ve final ödevi.
+                          - list [ref=e217]:
+                            - listitem [ref=e218]:
+                              - strong [ref=e219]: "Dönem:"
+                              - text: "2020"
+                            - listitem [ref=e220]:
+                              - strong [ref=e221]: "Tür:"
+                              - text: Ara sınav ve final ödevi
+                          - paragraph [ref=e222]:
+                            - strong [ref=e223]: "Dosyalar (2):"
+                          - list [ref=e224]:
+                            - listitem [ref=e225]:
+                              - iframe [ref=e227]:
+                                
+                            - listitem [ref=e228]:
+                              - iframe [ref=e230]:
+                                
+                  - generic [ref=e231]:
+                    - link " Mühendislik" [ref=e233] [cursor=pointer]:
+                      - /url: /category/9/mühendislik
+                      - generic [ref=e234]: 
+                      - text: Mühendislik
+                    - generic [ref=e235]: 1 İleti
+                    - generic [ref=e236]: 0 Oy
+              - tabpanel [ref=e237]:
+                - generic [ref=e241]:
+                  - generic [ref=e242]:
+                    - heading [level=6] [ref=e244]:
+                      - link [ref=e245] [cursor=pointer]:
+                        - /url: /topic/163/i̇nş3028-çelik-yapılar-final-sınavı-2020-2021
+                        - text: İNŞ3028 Çelik Yapılar – Final Sınavı (2020-2021)
+                    - generic [ref=e246]:
+                      - generic [ref=e247]:
+                        - link [ref=e248] [cursor=pointer]:
+                          - /url: /user/ahmetyil
+                          - generic [ref=e249]: A
+                        - link [ref=e250] [cursor=pointer]:
+                          - /url: /user/ahmetyil
+                          - text: ahmetyil
+                        - generic [ref=e251]: 1 gün önce
+                      - generic [ref=e253]:
+                        - paragraph [ref=e254]:
+                          - strong [ref=e255]: İNŞ3028 Çelik Yapılar
+                          - text: dersinin 2020-2021 dönemi final sınavı soruları.
+                        - list [ref=e256]:
+                          - listitem [ref=e257]:
+                            - strong [ref=e258]: "Dönem:"
+                            - text: 2020-2021
+                          - listitem [ref=e259]:
+                            - strong [ref=e260]: "Tür:"
+                            - text: Final sınavı
+                        - paragraph [ref=e261]:
+                          - strong [ref=e262]: "Dosyalar (1):"
+                        - list [ref=e263]:
+                          - listitem [ref=e264]:
+                            - iframe [ref=e266]:
+                              
+                  - generic [ref=e267]:
+                    - link [ref=e269] [cursor=pointer]:
+                      - /url: /category/9/mühendislik
+                      - generic [ref=e270]: 
+                      - text: Mühendislik
+                    - generic [ref=e271]: 1 İleti
+                    - generic [ref=e272]: 0 Oy
+              - tabpanel [ref=e273]:
+                - generic [ref=e277]:
+                  - generic [ref=e278]:
+                    - heading [level=6] [ref=e280]:
+                      - link [ref=e281] [cursor=pointer]:
+                        - /url: /topic/162/i̇nş3023-hidrolik-çıkmış-sınavlar-2020-2021-güz-vize-çözümlü-bütünleme
+                        - text: İNŞ3023 Hidrolik – Çıkmış Sınavlar (2020-2021 Güz; Vize çözümlü + Bütünleme)
+                    - generic [ref=e282]:
+                      - generic [ref=e283]:
+                        - link [ref=e284] [cursor=pointer]:
+                          - /url: /user/ece.korkmaz
+                          - generic [ref=e285]: E
+                        - link [ref=e286] [cursor=pointer]:
+                          - /url: /user/ece.korkmaz
+                          - text: ece.korkmaz
+                        - generic [ref=e287]: 1 gün önce
+                      - generic [ref=e289]:
+                        - paragraph [ref=e290]:
+                          - strong [ref=e291]: İNŞ3023 Hidrolik
+                          - text: dersinin 2020-2021 Güz dönemi çözümlü ara sınavı ve bütünleme sınavı.
+                        - list [ref=e292]:
+                          - listitem [ref=e293]:
+                            - strong [ref=e294]: "Dönem:"
+                            - text: 2020-2021 Güz
+                          - listitem [ref=e295]:
+                            - strong [ref=e296]: "Tür:"
+                            - text: Ara sınav (çözümlü) ve Bütünleme
+                        - paragraph [ref=e297]:
+                          - strong [ref=e298]: "Dosyalar (2):"
+                        - list [ref=e299]:
+                          - listitem [ref=e300]:
+                            - iframe [ref=e302]:
+                              
+                          - listitem [ref=e303]:
+                            - iframe [ref=e305]:
+                              
+                  - generic [ref=e306]:
+                    - link [ref=e308] [cursor=pointer]:
+                      - /url: /category/9/mühendislik
+                      - generic [ref=e309]: 
+                      - text: Mühendislik
+                    - generic [ref=e310]: 1 İleti
+                    - generic [ref=e311]: 0 Oy
+              - tabpanel [ref=e312]:
+                - generic [ref=e316]:
+                  - generic [ref=e317]:
+                    - heading [level=6] [ref=e319]:
+                      - link [ref=e320] [cursor=pointer]:
+                        - /url: /topic/161/i̇nş3008-yapı-statiği-ii-çıkmış-sınavlar-ve-ödevler-2019-2021
+                        - text: İNŞ3008 Yapı Statiği II – Çıkmış Sınavlar ve Ödevler (2019-2021)
+                    - generic [ref=e321]:
+                      - generic [ref=e322]:
+                        - link [ref=e323] [cursor=pointer]:
+                          - /url: /user/berkebulut99
+                          - generic [ref=e324]: B
+                        - link [ref=e325] [cursor=pointer]:
+                          - /url: /user/berkebulut99
+                          - text: berkebulut99
+                        - generic [ref=e326]: 1 gün önce
+                      - generic [ref=e328]:
+                        - paragraph [ref=e329]:
+                          - strong [ref=e330]: İNŞ3008 Yapı Statiği II
+                          - text: dersinin 2019-2021 dönemleri vize/final sınavları ve final ödevleri.
+                        - list [ref=e331]:
+                          - listitem [ref=e332]:
+                            - strong [ref=e333]: "Dönem:"
+                            - text: 2019-2020 ve 2020-2021
+                          - listitem [ref=e334]:
+                            - strong [ref=e335]: "Tür:"
+                            - text: Vize, Final ve final ödevleri
+                        - paragraph [ref=e336]:
+                          - strong [ref=e337]: "Dosyalar (4):"
+                        - list [ref=e338]:
+                          - listitem [ref=e339]:
+                            - iframe [ref=e341]:
+                              
+                          - listitem [ref=e342]:
+                            - iframe [ref=e344]:
+                              
+                          - listitem [ref=e345]:
+                            - iframe [ref=e347]:
+                              
+                          - listitem [ref=e348]:
+                            - iframe [ref=e350]:
+                              
+                  - generic [ref=e351]:
+                    - link [ref=e353] [cursor=pointer]:
+                      - /url: /category/9/mühendislik
+                      - generic [ref=e354]: 
+                      - text: Mühendislik
+                    - generic [ref=e355]: 1 İleti
+                    - generic [ref=e356]: 0 Oy
+              - tabpanel [ref=e357]:
+                - generic [ref=e361]:
+                  - generic [ref=e362]:
+                    - heading [level=6] [ref=e364]:
+                      - link [ref=e365] [cursor=pointer]:
+                        - /url: /topic/160/i̇nş2028-hidroloji-çıkmış-vize-sınavı
+                        - text: İNŞ2028 Hidroloji – Çıkmış Vize Sınavı
+                    - generic [ref=e366]:
+                      - generic [ref=e367]:
+                        - link [ref=e368] [cursor=pointer]:
+                          - /url: /user/damla_01
+                          - generic [ref=e369]: D
+                        - link [ref=e370] [cursor=pointer]:
+                          - /url: /user/damla_01
+                          - text: damla_01
+                        - generic [ref=e371]: 1 gün önce
+                      - generic [ref=e373]:
+                        - paragraph [ref=e374]:
+                          - strong [ref=e375]: İNŞ2028 Hidroloji
+                          - text: dersinin çıkmış 1. vize sınavı soruları.
+                        - list [ref=e376]:
+                          - listitem [ref=e377]:
+                            - strong [ref=e378]: "Tür:"
+                            - text: 1. Vize soruları
+                        - paragraph [ref=e379]:
+                          - strong [ref=e380]: "Dosyalar (1):"
+                        - list [ref=e381]:
+                          - listitem [ref=e382]:
+                            - iframe [ref=e384]:
+                              
+                  - generic [ref=e385]:
+                    - link [ref=e387] [cursor=pointer]:
+                      - /url: /category/9/mühendislik
+                      - generic [ref=e388]: 
+                      - text: Mühendislik
+                    - generic [ref=e389]: 1 İleti
+                    - generic [ref=e390]: 0 Oy
+              - tabpanel [ref=e391]:
+                - generic [ref=e395]:
+                  - generic [ref=e396]:
+                    - heading [level=6] [ref=e398]:
+                      - link [ref=e399] [cursor=pointer]:
+                        - /url: /topic/159/i̇nş2024-yapı-malzemesi-ii-çıkmış-sınavlar-2020-2021-vize-final
+                        - text: İNŞ2024 Yapı Malzemesi II – Çıkmış Sınavlar (2020-2021; Vize + Final)
+                    - generic [ref=e400]:
+                      - generic [ref=e401]:
+                        - link [ref=e402] [cursor=pointer]:
+                          - /url: /user/oguozturk
+                          - generic [ref=e403]: O
+                        - link [ref=e404] [cursor=pointer]:
+                          - /url: /user/oguozturk
+                          - text: oguozturk
+                        - generic [ref=e405]: 1 gün önce
+                      - generic [ref=e407]:
+                        - paragraph [ref=e408]:
+                          - strong [ref=e409]: İNŞ2024 Yapı Malzemesi II
+                          - text: dersinin 2020-2021 dönemi vize ve final sınavları.
+                        - list [ref=e410]:
+                          - listitem [ref=e411]:
+                            - strong [ref=e412]: "Dönem:"
+                            - text: 2020-2021
+                          - listitem [ref=e413]:
+                            - strong [ref=e414]: "Tür:"
+                            - text: Vize ve Final soruları
+                        - paragraph [ref=e415]:
+                          - strong [ref=e416]: "Dosyalar (2):"
+                        - list [ref=e417]:
+                          - listitem [ref=e418]:
+                            - iframe [ref=e420]:
+                              
+                          - listitem [ref=e421]:
+                            - iframe [ref=e423]:
+                              
+                  - generic [ref=e424]:
+                    - link [ref=e426] [cursor=pointer]:
+                      - /url: /category/9/mühendislik
+                      - generic [ref=e427]: 
+                      - text: Mühendislik
+                    - generic [ref=e428]: 1 İleti
+                    - generic [ref=e429]: 0 Oy
+              - tabpanel [ref=e430]:
+                - generic [ref=e434]:
+                  - generic [ref=e435]:
+                    - heading [level=6] [ref=e437]:
+                      - link [ref=e438] [cursor=pointer]:
+                        - /url: /topic/158/i̇nş2016-topoğrafya-çıkmış-sınavlar-2020-2021-çev-bahar-i̇nş-güz
+                        - text: İNŞ2016 Topoğrafya – Çıkmış Sınavlar (2020-2021; ÇEV Bahar + İNŞ Güz)
+                    - generic [ref=e439]:
+                      - generic [ref=e440]:
+                        - link [ref=e441] [cursor=pointer]:
+                          - /url: /user/gamzekur
+                          - generic [ref=e442]: G
+                        - link [ref=e443] [cursor=pointer]:
+                          - /url: /user/gamzekur
+                          - text: gamzekur
+                        - generic [ref=e444]: 1 gün önce
+                      - generic [ref=e446]:
+                        - paragraph [ref=e447]:
+                          - strong [ref=e448]: İNŞ2016 Topoğrafya
+                          - text: dersinin 2020-2021 dönemi sınavları — Çevre Müh. (Bahar) ve İnşaat Müh. (Güz) şubeleri.
+                        - list [ref=e449]:
+                          - listitem [ref=e450]:
+                            - strong [ref=e451]: "Dönem:"
+                            - text: 2020-2021 Bahar (ÇEV) ve Güz (İNŞ)
+                          - listitem [ref=e452]:
+                            - strong [ref=e453]: "Tür:"
+                            - text: Vize ve Final soruları
+                        - paragraph [ref=e454]:
+                          - strong [ref=e455]: "Dosyalar (3):"
+                        - list [ref=e456]:
+                          - listitem [ref=e457]:
+                            - iframe [ref=e459]:
+                              
+                          - listitem [ref=e460]:
+                            - iframe [ref=e462]:
+                              
+                          - listitem [ref=e463]:
+                            - iframe [ref=e465]:
+                              
+                  - generic [ref=e466]:
+                    - link [ref=e468] [cursor=pointer]:
+                      - /url: /category/9/mühendislik
+                      - generic [ref=e469]: 
+                      - text: Mühendislik
+                    - generic [ref=e470]: 1 İleti
+                    - generic [ref=e471]: 0 Oy
+              - tabpanel [ref=e472]:
+                - generic [ref=e476]:
+                  - generic [ref=e477]:
+                    - heading [level=6] [ref=e479]:
+                      - link [ref=e480] [cursor=pointer]:
+                        - /url: /topic/157/i̇nş2014-akışkanlar-mekaniği-çıkmış-sınavlar-2020-2021-vize-final
+                        - text: İNŞ2014 Akışkanlar Mekaniği – Çıkmış Sınavlar (2020-2021; Vize + Final)
+                    - generic [ref=e481]:
+                      - generic [ref=e482]:
+                        - link [ref=e483] [cursor=pointer]:
+                          - /url: /user/furkan.acar
+                          - generic [ref=e484]: F
+                        - link [ref=e485] [cursor=pointer]:
+                          - /url: /user/furkan.acar
+                          - text: furkan.acar
+                        - generic [ref=e486]: 1 gün önce
+                      - generic [ref=e488]:
+                        - paragraph [ref=e489]:
+                          - strong [ref=e490]: İNŞ2014 Akışkanlar Mekaniği
+                          - text: dersinin 2020-2021 dönemi vize ve final sınavları.
+                        - list [ref=e491]:
+                          - listitem [ref=e492]:
+                            - strong [ref=e493]: "Dönem:"
+                            - text: 2020-2021
+                          - listitem [ref=e494]:
+                            - strong [ref=e495]: "Tür:"
+                            - text: Vize ve Final soruları
+                        - paragraph [ref=e496]:
+                          - strong [ref=e497]: "Dosyalar (2):"
+                        - list [ref=e498]:
+                          - listitem [ref=e499]:
+                            - iframe [ref=e501]:
+                              
+                          - listitem [ref=e502]:
+                            - iframe [ref=e504]:
+                              
+                  - generic [ref=e505]:
+                    - link [ref=e507] [cursor=pointer]:
+                      - /url: /category/9/mühendislik
+                      - generic [ref=e508]: 
+                      - text: Mühendislik
+                    - generic [ref=e509]: 1 İleti
+                    - generic [ref=e510]: 0 Oy
+              - tabpanel [ref=e511]:
+                - generic [ref=e515]:
+                  - generic [ref=e516]:
+                    - heading [level=6] [ref=e518]:
+                      - link [ref=e519] [cursor=pointer]:
+                        - /url: /topic/156/i̇nş2012-mühendislik-matematiği-çıkmış-sınavlar-vize-final-matlab-dahil
+                        - text: İNŞ2012 Mühendislik Matematiği – Çıkmış Sınavlar (Vize + Final, Matlab dahil)
+                    - generic [ref=e520]:
+                      - generic [ref=e521]:
+                        - link [ref=e522] [cursor=pointer]:
+                          - /url: /user/silademir01
+                          - generic [ref=e523]: S
+                        - link [ref=e524] [cursor=pointer]:
+                          - /url: /user/silademir01
+                          - text: silademir01
+                        - generic [ref=e525]: 1 gün önce
+                      - generic [ref=e527]:
+                        - paragraph [ref=e528]:
+                          - strong [ref=e529]: İNŞ2012 Mühendislik Matematiği
+                          - text: dersinin 2020-2021 dönemi vize ve final sınavları (Matlab kısmı dahil).
+                        - list [ref=e530]:
+                          - listitem [ref=e531]:
+                            - strong [ref=e532]: "Dönem:"
+                            - text: 2020-2021
+                          - listitem [ref=e533]:
+                            - strong [ref=e534]: "Tür:"
+                            - text: Vize ve Final (Matlab dahil)
+                        - paragraph [ref=e535]:
+                          - strong [ref=e536]: "Dosyalar (4):"
+                        - list [ref=e537]:
+                          - listitem [ref=e538]:
+                            - iframe [ref=e540]:
+                              
+                          - listitem [ref=e541]:
+                            - iframe [ref=e543]:
+                              
+                          - listitem [ref=e544]:
+                            - iframe [ref=e546]:
+                              
+                          - listitem [ref=e547]:
+                            - iframe [ref=e549]:
+                              
+                  - generic [ref=e550]:
+                    - link [ref=e552] [cursor=pointer]:
+                      - /url: /category/9/mühendislik
+                      - generic [ref=e553]: 
+                      - text: Mühendislik
+                    - generic [ref=e554]: 1 İleti
+                    - generic [ref=e555]: 0 Oy
+              - tabpanel [ref=e556]:
+                - generic [ref=e560]:
+                  - generic [ref=e561]:
+                    - heading [level=6] [ref=e563]:
+                      - link [ref=e564] [cursor=pointer]:
+                        - /url: /topic/155/i̇nş2009-dinamik-çıkmış-sınavlar-2020-2021-güz-vize-final
+                        - text: İNŞ2009 Dinamik – Çıkmış Sınavlar (2020-2021 Güz; Vize + Final)
+                    - generic [ref=e565]:
+                      - generic [ref=e566]:
+                        - link [ref=e567] [cursor=pointer]:
+                          - /url: /user/tolga_99
+                          - generic [ref=e568]: T
+                        - link [ref=e569] [cursor=pointer]:
+                          - /url: /user/tolga_99
+                          - text: tolga_99
+                        - generic [ref=e570]: 1 gün önce
+                      - generic [ref=e572]:
+                        - paragraph [ref=e573]:
+                          - strong [ref=e574]: İNŞ2009 Dinamik
+                          - text: dersinin 2020-2021 Güz dönemi vize ve final sınavları.
+                        - list [ref=e575]:
+                          - listitem [ref=e576]:
+                            - strong [ref=e577]: "Dönem:"
+                            - text: 2020-2021 Güz
+                          - listitem [ref=e578]:
+                            - strong [ref=e579]: "Tür:"
+                            - text: Vize ve Final soruları
+                        - paragraph [ref=e580]:
+                          - strong [ref=e581]: "Dosyalar (2):"
+                        - list [ref=e582]:
+                          - listitem [ref=e583]:
+                            - iframe [ref=e585]:
+                              
+                          - listitem [ref=e586]:
+                            - iframe [ref=e588]:
+                              
+                  - generic [ref=e589]:
+                    - link [ref=e591] [cursor=pointer]:
+                      - /url: /category/9/mühendislik
+                      - generic [ref=e592]: 
+                      - text: Mühendislik
+                    - generic [ref=e593]: 1 İleti
+                    - generic [ref=e594]: 0 Oy
+              - tabpanel [ref=e595]:
+                - generic [ref=e599]:
+                  - generic [ref=e600]:
+                    - heading [level=6] [ref=e602]:
+                      - link [ref=e603] [cursor=pointer]:
+                        - /url: /topic/154/i̇nş2007-yapı-elemanları-sınav-materyalleri-final-vize-kuralları
+                        - text: İNŞ2007 Yapı Elemanları – Sınav Materyalleri (Final + Vize Kuralları)
+                    - generic [ref=e604]:
+                      - generic [ref=e605]:
+                        - link [ref=e606] [cursor=pointer]:
+                          - /url: /user/dilpolat
+                          - generic [ref=e607]: D
+                        - link [ref=e608] [cursor=pointer]:
+                          - /url: /user/dilpolat
+                          - text: dilpolat
+                        - generic [ref=e609]: 1 gün önce
+                      - generic [ref=e611]:
+                        - paragraph [ref=e612]:
+                          - strong [ref=e613]: İNŞ2007 Yapı Elemanları
+                          - text: dersinin 2020-2021 Güz dönemi final sınavı ve vize sınav kuralları.
+                        - list [ref=e614]:
+                          - listitem [ref=e615]:
+                            - strong [ref=e616]: "Dönem:"
+                            - text: 2020-2021 Güz
+                          - listitem [ref=e617]:
+                            - strong [ref=e618]: "Tür:"
+                            - text: Final sınavı ve vize kuralları
+                        - paragraph [ref=e619]:
+                          - strong [ref=e620]: "Dosyalar (2):"
+                        - list [ref=e621]:
+                          - listitem [ref=e622]:
+                            - iframe [ref=e624]:
+                              - generic [ref=f32e2]: Not Found
+                          - listitem [ref=e625]:
+                            - iframe [ref=e627]:
+                              
+                  - generic [ref=e628]:
+                    - link [ref=e630] [cursor=pointer]:
+                      - /url: /category/9/mühendislik
+                      - generic [ref=e631]: 
+                      - text: Mühendislik
+                    - generic [ref=e632]: 1 İleti
+                    - generic [ref=e633]: 0 Oy
+              - tabpanel [ref=e634]:
+                - generic [ref=e638]:
+                  - generic [ref=e639]:
+                    - heading [level=6] [ref=e641]:
+                      - link [ref=e642] [cursor=pointer]:
+                        - /url: /topic/153/i̇nş2002-mukavemet-ii-çıkmış-final-sınavları-ve-ödevler-2019-2021
+                        - text: İNŞ2002 Mukavemet II – Çıkmış Final Sınavları ve Ödevler (2019-2021)
+                    - generic [ref=e643]:
+                      - generic [ref=e644]:
+                        - link [ref=e645] [cursor=pointer]:
+                          - /url: /user/barisyal
+                          - generic [ref=e646]: B
+                        - link [ref=e647] [cursor=pointer]:
+                          - /url: /user/barisyal
+                          - text: barisyal
+                        - generic [ref=e648]: 1 gün önce
+                      - generic [ref=e650]:
+                        - paragraph [ref=e651]:
+                          - strong [ref=e652]: İNŞ2002 Mukavemet II
+                          - text: dersinin 2019-2021 dönemleri final sınavları ve ödevleri.
+                        - list [ref=e653]:
+                          - listitem [ref=e654]:
+                            - strong [ref=e655]: "Dönem:"
+                            - text: 2019-2020 ve 2020-2021 Bahar
+                          - listitem [ref=e656]:
+                            - strong [ref=e657]: "Tür:"
+                            - text: Final sınavları ve ödev
+                        - paragraph [ref=e658]:
+                          - strong [ref=e659]: "Dosyalar (3):"
+                        - list [ref=e660]:
+                          - listitem [ref=e661]:
+                            - iframe [ref=e663]:
+                              - generic [ref=f34e2]: Not Found
+                          - listitem [ref=e664]:
+                            - iframe [ref=e666]:
+                              
+                          - listitem [ref=e667]:
+                            - iframe [ref=e669]:
+                              
+                  - generic [ref=e670]:
+                    - link [ref=e672] [cursor=pointer]:
+                      - /url: /category/9/mühendislik
+                      - generic [ref=e673]: 
+                      - text: Mühendislik
+                    - generic [ref=e674]: 1 İleti
+                    - generic [ref=e675]: 0 Oy
+              - tabpanel [ref=e676]:
+                - generic [ref=e680]:
+                  - generic [ref=e681]:
+                    - heading [level=6] [ref=e683]:
+                      - link [ref=e684] [cursor=pointer]:
+                        - /url: /topic/152/i̇nş2001-mukavemet-i-çıkmış-sınavlar-2020-2021-güz-vize-1-2-final
+                        - text: İNŞ2001 Mukavemet I – Çıkmış Sınavlar (2020-2021 Güz; Vize 1-2 + Final)
+                    - generic [ref=e685]:
+                      - generic [ref=e686]:
+                        - link [ref=e687] [cursor=pointer]:
+                          - /url: /user/efe.celik
+                          - generic [ref=e688]: E
+                        - link [ref=e689] [cursor=pointer]:
+                          - /url: /user/efe.celik
+                          - text: efe.celik
+                        - generic [ref=e690]: 1 gün önce
+                      - generic [ref=e692]:
+                        - paragraph [ref=e693]:
+                          - strong [ref=e694]: İNŞ2001 Mukavemet I
+                          - text: dersinin 2020-2021 Güz dönemi çıkmış sınavları.
+                        - list [ref=e695]:
+                          - listitem [ref=e696]:
+                            - strong [ref=e697]: "Dönem:"
+                            - text: 2020-2021 Güz
+                          - listitem [ref=e698]:
+                            - strong [ref=e699]: "Tür:"
+                            - text: 1. Vize, 2. Vize ve Final
+                        - paragraph [ref=e700]:
+                          - strong [ref=e701]: "Dosyalar (3):"
+                        - list [ref=e702]:
+                          - listitem [ref=e703]:
+                            - iframe [ref=e705]:
+                              
+                          - listitem [ref=e706]:
+                            - iframe [ref=e708]:
+                              
+                          - listitem [ref=e709]:
+                            - iframe [ref=e711]:
+                              
+                  - generic [ref=e712]:
+                    - link [ref=e714] [cursor=pointer]:
+                      - /url: /category/9/mühendislik
+                      - generic [ref=e715]: 
+                      - text: Mühendislik
+                    - generic [ref=e716]: 1 İleti
+                    - generic [ref=e717]: 0 Oy
+              - tabpanel [ref=e718]:
+                - generic [ref=e722]:
+                  - generic [ref=e723]:
+                    - heading [level=6] [ref=e725]:
+                      - link [ref=e726] [cursor=pointer]:
+                        - /url: /topic/151/i̇nş1011-teknik-resim-yaz-okulu-sınavları-2021-vize-final
+                        - text: İNŞ1011 Teknik Resim – Yaz Okulu Sınavları (2021, Vize + Final)
+                    - generic [ref=e727]:
+                      - generic [ref=e728]:
+                        - link [ref=e729] [cursor=pointer]:
+                          - /url: /user/cansucetin99
+                          - generic [ref=e730]: C
+                        - link [ref=e731] [cursor=pointer]:
+                          - /url: /user/cansucetin99
+                          - text: cansucetin99
+                        - generic [ref=e732]: 1 gün önce
+                      - generic [ref=e734]:
+                        - paragraph [ref=e735]:
+                          - strong [ref=e736]: İNŞ1011 Teknik Resim
+                          - text: dersinin 2021 yaz okulu dönemi 2. vize ve final sınavı.
+                        - list [ref=e737]:
+                          - listitem [ref=e738]:
+                            - strong [ref=e739]: "Dönem:"
+                            - text: 2021 Yaz Okulu
+                          - listitem [ref=e740]:
+                            - strong [ref=e741]: "Tür:"
+                            - text: 2. Vize ve Final
+                        - paragraph [ref=e742]:
+                          - strong [ref=e743]: "Dosyalar (2):"
+                        - list [ref=e744]:
+                          - listitem [ref=e745]:
+                            - iframe [ref=e747]:
+                              
+                          - listitem [ref=e748]:
+                            - iframe [ref=e750]:
+                              
+                  - generic [ref=e751]:
+                    - link [ref=e753] [cursor=pointer]:
+                      - /url: /category/9/mühendislik
+                      - generic [ref=e754]: 
+                      - text: Mühendislik
+                    - generic [ref=e755]: 1 İleti
+                    - generic [ref=e756]: 0 Oy
+              - tabpanel [ref=e757]:
+                - generic [ref=e761]:
+                  - generic [ref=e762]:
+                    - heading [level=6] [ref=e764]:
+                      - link [ref=e765] [cursor=pointer]:
+                        - /url: /topic/150/bi̇l1002-bilgisayar-programlama-final-sınav-ödevi-2020-bahar
+                        - text: BİL1002 Bilgisayar Programlama – Final Sınav Ödevi (2020 Bahar)
+                    - generic [ref=e766]:
+                      - generic [ref=e767]:
+                        - link [ref=e768] [cursor=pointer]:
+                          - /url: /user/melis_01
+                          - generic [ref=e769]: M
+                        - link [ref=e770] [cursor=pointer]:
+                          - /url: /user/melis_01
+                          - text: melis_01
+                        - generic [ref=e771]: 1 gün önce
+                      - generic [ref=e773]:
+                        - paragraph [ref=e774]:
+                          - strong [ref=e775]: BİL1002 Bilgisayar Programlama
+                          - text: dersinin 2020 Bahar dönemi final sınavı ödevi.
+                        - list [ref=e776]:
+                          - listitem [ref=e777]:
+                            - strong [ref=e778]: "Dönem:"
+                            - text: 2019-2020 Bahar
+                          - listitem [ref=e779]:
+                            - strong [ref=e780]: "Tür:"
+                            - text: Final sınavı ödevi
+                        - paragraph [ref=e781]:
+                          - strong [ref=e782]: "Dosyalar (1):"
+                        - list [ref=e783]:
+                          - listitem [ref=e784]:
+                            - iframe [ref=e786]:
+                              
+                  - generic [ref=e787]:
+                    - link [ref=e789] [cursor=pointer]:
+                      - /url: /category/9/mühendislik
+                      - generic [ref=e790]: 
+                      - text: Mühendislik
+                    - generic [ref=e791]: 1 İleti
+                    - generic [ref=e792]: 0 Oy
+              - tabpanel [ref=e793]:
+                - generic [ref=e797]:
+                  - generic [ref=e798]:
+                    - heading [level=6] [ref=e800]:
+                      - link [ref=e801] [cursor=pointer]:
+                        - /url: /topic/149/bi̇l1002-bilgisayar-programlama-yaz-okulu-çıkmış-sınavları-2019-2020
+                        - text: BİL1002 Bilgisayar Programlama – Yaz Okulu Çıkmış Sınavları (2019-2020)
+                    - generic [ref=e802]:
+                      - generic [ref=e803]:
+                        - link [ref=e804] [cursor=pointer]:
+                          - /url: /user/batozkan
+                          - generic [ref=e805]: B
+                        - link [ref=e806] [cursor=pointer]:
+                          - /url: /user/batozkan
+                          - text: batozkan
+                        - generic [ref=e807]: 1 gün önce
+                      - generic [ref=e809]:
+                        - paragraph [ref=e810]:
+                          - strong [ref=e811]: BİL1002 Bilgisayar Programlama
+                          - text: dersinin yaz okulu döneminde çıkmış vize ve final sınav soruları.
+                        - list [ref=e812]:
+                          - listitem [ref=e813]:
+                            - strong [ref=e814]: "Dönem:"
+                            - text: 2019-2020 Yaz Okulu
+                          - listitem [ref=e815]:
+                            - strong [ref=e816]: "Tür:"
+                            - text: Vize ve final soruları
+                          - listitem [ref=e817]:
+                            - strong [ref=e818]: "Konu:"
+                            - text: C/programlama uygulamaları
+                        - paragraph [ref=e819]:
+                          - strong [ref=e820]: "Dosyalar (4):"
+                        - list [ref=e821]:
+                          - listitem [ref=e822]:
+                            - iframe [ref=e824]:
+                              
+                          - listitem [ref=e825]:
+                            - iframe [ref=e827]:
+                              
+                          - listitem [ref=e828]:
+                            - iframe [ref=e830]:
+                              
+                          - listitem [ref=e831]:
+                            - iframe [ref=e833]:
+                              
+                  - generic [ref=e834]:
+                    - link [ref=e836] [cursor=pointer]:
+                      - /url: /category/9/mühendislik
+                      - generic [ref=e837]: 
+                      - text: Mühendislik
+                    - generic [ref=e838]: 1 İleti
+                    - generic [ref=e839]: 0 Oy
+              - tabpanel [ref=e840]:
+                - generic [ref=e844]:
+                  - generic [ref=e845]:
+                    - heading [level=6] [ref=e847]:
+                      - link [ref=e848] [cursor=pointer]:
+                        - /url: /topic/145/2025-2026-akademik-takvim
+                        - text: 2025-2026 Akademik Takvim
+                    - generic [ref=e849]:
+                      - generic [ref=e850]:
+                        - link [ref=e851] [cursor=pointer]:
+                          - /url: /user/enes
+                          - generic [ref=e852]: E
+                        - link [ref=e853] [cursor=pointer]:
+                          - /url: /user/enes
+                          - text: enes
+                        - generic [ref=e854]: 2 gün önce
+                      - paragraph [ref=e857]:
+                        - iframe [ref=e859]:
+                          
+                  - generic [ref=e860]:
+                    - link [ref=e862] [cursor=pointer]:
+                      - /url: /category/1/duyurular
+                      - generic [ref=e863]: 
+                      - text: Duyurular
+                    - generic [ref=e864]: 1 İleti
+                    - generic [ref=e865]: 0 Oy
+            - link "" [ref=e866] [cursor=pointer]:
+              - /url: "#"
+              - generic [ref=e867]: 
+            - tablist [ref=e868]:
+              - tab "1 of 5" [selected] [ref=e869] [cursor=pointer]: • 1
+              - tab "2 of 5" [ref=e870] [cursor=pointer]: • 2
+              - tab "3 of 5" [ref=e871] [cursor=pointer]: • 3
+              - tab "4 of 5" [ref=e872] [cursor=pointer]: • 4
+              - tab "5 of 5" [ref=e873] [cursor=pointer]: • 5
+          - generic [ref=e874]:
+            - generic [ref=e875]:
+              - generic [ref=e877]: 
+              - generic [ref=e878]:
+                - generic [ref=e879]: DEÜ Duyuruları
+                - generic [ref=e880]: Dokuz Eylül Üniversitesi
+              - generic [ref=e881]: "15"
+            - tablist [ref=e882]:
+              - tab "Tümü" [ref=e883] [cursor=pointer]
+              - tab "Ana Duyurular" [ref=e884] [cursor=pointer]
+              - tab "İİBF" [ref=e885] [cursor=pointer]
+              - tab "Hukuk" [ref=e886] [cursor=pointer]
+              - tab "Tıp" [ref=e887] [cursor=pointer]
+              - tab "Edebiyat" [ref=e888] [cursor=pointer]
+              - tab "Fen" [ref=e889] [cursor=pointer]
+              - tab "İşletme" [ref=e890] [cursor=pointer]
+              - tab "Öğrenci İşleri" [ref=e891] [cursor=pointer]
+              - tab "SKS" [ref=e892] [cursor=pointer]
+            - list [ref=e893]:
+              - listitem [ref=e894]:
+                - link "Evlenecek Gençlerin Desteklenmesi Projesi" [ref=e895] [cursor=pointer]:
+                  - /url: https://www.deu.edu.tr/duyurular/evlenecek-genclerin-desteklenmesi-projesi/
+                - generic [ref=e898]: Ana Duyurular
+              - listitem [ref=e899]:
+                - link "Final Exams Schedule" [ref=e900] [cursor=pointer]:
+                  - /url: https://iibf.deu.edu.tr/final-exams-schedule/2986/
+                - generic [ref=e903]: İİBF
+              - listitem [ref=e904]:
+                - 'link "2025-2026 AKADEMİK YILI MEZUNİYET TÖRENİ / 30 HAZİRAN 2026 SALI / SAAT: 19.00 / MERKEZ YERLEŞKESİ AMFİ TİYATRO" [ref=e905] [cursor=pointer]':
+                  - /url: https://hukuk.deu.edu.tr/duyurular/deu-hukuk-fakultesi-ve-adalet-meslek-yuksekokulu-mezuniyet-toreni-30-haziran-2026-saat-19-00-merkez-yerleskesi-amfi-tiyatro/
+                - generic [ref=e908]: Hukuk
+              - listitem [ref=e909]:
+                - link "Aile ve Nüfus On Yılı 2026-2035" [ref=e910] [cursor=pointer]:
+                  - /url: https://tip.deu.edu.tr/duyurular/aile-ve-nufus-on-yili-2026-2035/
+                - generic [ref=e913]: Tıp
+              - listitem [ref=e914]:
+                - link "FAKÜLTEMİZDE 2025-2026 EĞİTİM ÖĞRETİM YILINDA YAZ OKULU AÇILMAYACAKTIR." [ref=e915] [cursor=pointer]:
+                  - /url: https://edebiyat.deu.edu.tr/duyurular/fakultemizde-2025-2026-egitim-ogretim-yilinda-yaz-okulu-acilmayacaktir/
+                - generic [ref=e918]: Edebiyat
+              - listitem [ref=e919]:
+                - link "2025-2026 Bahar Final ve Bütünleme Programları" [ref=e920] [cursor=pointer]:
+                  - /url: https://fen.deu.edu.tr/duyurular/2025-2026-bahar-final-ve-butunleme-programlari/
+                - generic [ref=e923]: Fen
+              - listitem [ref=e924]:
+                - link "2025-2026 Güz Sonu Erasmus Kapsamında Yurtdışına Giden Öğrenci Final Sınav Programı" [ref=e925] [cursor=pointer]:
+                  - /url: https://isletme.deu.edu.tr/duyurular/9422/
+                - generic [ref=e928]: İşletme
+              - listitem [ref=e929]:
+                - link "2025 – 2026 Akademik Yılı Bahar Yarıyılı Ön Lisans Programları Yatay Geçiş Başvuruları" [ref=e930] [cursor=pointer]:
+                  - /url: https://ogrenci.deu.edu.tr/duyurular/2025-2026-akademik-yili-bahar-yariyili-on-lisans-programlari-yatay-gecis-basvurulari/
+                - generic [ref=e933]: Öğrenci İşleri
+              - listitem [ref=e934]:
+                - link "SEFERİHİSAR DİNLENME TESİSLERİ BAŞVURULARI :" [ref=e935] [cursor=pointer]:
+                  - /url: https://sks.deu.edu.tr/duyurular/seferihisar-dinlenme-tesisleri-basvurulari/
+                - generic [ref=e938]: SKS
+              - listitem [ref=e939]:
+                - link "DEÜ e-Bülten’in Nisan 2026 Sayısı Yayında!" [ref=e940] [cursor=pointer]:
+                  - /url: https://www.deu.edu.tr/duyurular/deu-e-bultenin-nisan-2026-sayisi-yayinda/
+                - generic [ref=e943]: Ana Duyurular
+              - listitem [ref=e944]:
+                - link "Midterms Excuse Exams Schedule" [ref=e945] [cursor=pointer]:
+                  - /url: https://iibf.deu.edu.tr/midterms-excuse-exams-schedule/3619/
+                - generic [ref=e948]: İİBF
+              - listitem [ref=e949]:
+                - link "8 – 18 HAZİRAN 2026 TARİHLERİ ARASINDA OKUMA SALONLARI AÇIK OLACAKTIR!" [ref=e950] [cursor=pointer]:
+                  - /url: https://hukuk.deu.edu.tr/duyurular/arasinav-doneminde-okuma-salonlari-acik-olacaktir/
+                - generic [ref=e953]: Hukuk
+              - listitem [ref=e954]:
+                - 'link "Sağlık Bilimleri Üniversitesi “III. Psikoloji Günleri: Lunapark” etkinliği" [ref=e955] [cursor=pointer]':
+                  - /url: https://tip.deu.edu.tr/duyurular/saglik-bilimleri-universitesi-iiipsikoloji-gunlerilunapark-etkinligi/
+                - generic [ref=e958]: Tıp
+              - listitem [ref=e959]:
+                - link "Farklı Üniversiteden/Fakülteden Yaz Okulu Dersi Almak İsteyen Öğrencilerimizin Dikkatine" [ref=e960] [cursor=pointer]:
+                  - /url: https://edebiyat.deu.edu.tr/duyurular/farkli-universiteden-fakulteden-yaz-okulu-dersi-almak-isteyen-ogrencilerimizin-dikkatine-6/
+                - generic [ref=e963]: Edebiyat
+              - listitem [ref=e964]:
+                - link "2026-2027 Akademik Yılı Erasmus+ KA131 Öğrenim Hareketliliği (2026 projesi) Nihai Yerleştirme Sonucu Duyurusu" [ref=e965] [cursor=pointer]:
+                  - /url: https://fen.deu.edu.tr/duyurular/2026-2027-akademik-yili-erasmus-ka131-ogrenim-hareketliligi-2026-projesi-nihai-yerlestirme-sonucu-duyurusu/
+                - generic [ref=e968]: Fen
+            - text: 
+            - link " Tüm Duyurular deu.edu.tr " [ref=e969] [cursor=pointer]:
+              - /url: https://www.deu.edu.tr/tum-duyurular/
+              - generic [ref=e971]: 
+              - generic [ref=e972]:
+                - strong [ref=e973]: Tüm Duyurular
+                - generic [ref=e974]: deu.edu.tr
+              - generic [ref=e976]: 
+        - generic [ref=e978]:
+          - list [ref=e979]:
+            - listitem [ref=e980]:
+              - generic [ref=e981]:
+                - generic [ref=e984]: 
+                - generic [ref=e985]:
+                  - heading "Duyurular" [level=2] [ref=e986]:
+                    - link "Duyurular" [ref=e987] [cursor=pointer]:
+                      - /url: /category/1/duyurular
+                  - paragraph [ref=e989]: Forumla ve okulla ilgili önemli her şey burada. Atlamak istemezsin.
+                  - text:  
+              - generic [ref=e990]:
+                - generic [ref=e991]:
+                  - generic [ref=e992]:
+                    - generic "1" [ref=e993]
+                    - generic [ref=e994]: Konu
+                    - text: 
+                  - generic [ref=e995]:
+                    - generic "1" [ref=e996]
+                    - generic [ref=e997]: İleti
+                    - text: 
+                - generic [ref=e1000]:
+                  - generic [ref=e1001]:
+                    - link "E" [ref=e1002] [cursor=pointer]:
+                      - /url: /user/enes
+                      - generic "enes" [ref=e1003]: E
+                    - link "Son ileti" [ref=e1004] [cursor=pointer]:
+                      - /url: /topic/145/2025-2026-akademik-takvim/1
+                      - text: 2 gün önce
+                  - generic [ref=e1005]:
+                    - link "Son ileti":
+                      - /url: /topic/145/2025-2026-akademik-takvim/1
+                    - text: 2025-2026-Akademik-Takvim-Son-Hali.pdf
+            - listitem [ref=e1006]:
+              - generic [ref=e1007]:
+                - generic [ref=e1010]: 
+                - generic [ref=e1011]:
+                  - heading "Fakülteler" [level=2] [ref=e1012]:
+                    - link "Fakülteler" [ref=e1013] [cursor=pointer]:
+                      - /url: /category/17/fakülteler
+                  - paragraph [ref=e1015]: "Bölümünü seç: Mühendislik, Hukuk, Fen, Tıp & Sağlık, İİBF ve daha fazlası. Kendi fakültenin ders notları ve çıkmış soruları."
+                  - text:  
+                  - list [ref=e1016]:
+                    - listitem [ref=e1017]:
+                      - generic [ref=e1018]:
+                        - generic [ref=e1019]: 
+                        - link "Mühendislik" [ref=e1020] [cursor=pointer]:
+                          - /url: /category/9/mühendislik
+                    - listitem [ref=e1021]:
+                      - generic [ref=e1022]:
+                        - generic [ref=e1023]: 
+                        - link "Hukuk" [ref=e1024] [cursor=pointer]:
+                          - /url: /category/10/hukuk
+                    - listitem [ref=e1025]:
+                      - generic [ref=e1026]:
+                        - generic [ref=e1027]: 
+                        - link "Fen" [ref=e1028] [cursor=pointer]:
+                          - /url: /category/11/fen
+                    - listitem [ref=e1029]:
+                      - generic [ref=e1030]:
+                        - generic [ref=e1031]: 
+                        - link "Tıp & Sağlık" [ref=e1032] [cursor=pointer]:
+                          - /url: /category/12/tıp-sağlık
+                    - listitem [ref=e1033]:
+                      - generic [ref=e1034]:
+                        - generic [ref=e1035]: 
+                        - link "İİBF" [ref=e1036] [cursor=pointer]:
+                          - /url: /category/13/i̇i̇bf
+                    - listitem [ref=e1037]:
+                      - generic [ref=e1038]:
+                        - generic [ref=e1039]: 
+                        - link "Diğer Fakülteler" [ref=e1040] [cursor=pointer]:
+                          - /url: /category/14/diğer-fakülteler
+              - generic [ref=e1041]:
+                - generic [ref=e1042]:
+                  - generic [ref=e1043]:
+                    - generic "80" [ref=e1044]
+                    - generic [ref=e1045]: Konu
+                    - text: 
+                  - generic [ref=e1046]:
+                    - generic "80" [ref=e1047]
+                    - generic [ref=e1048]: İleti
+                    - text: 
+                - generic [ref=e1051]:
+                  - generic [ref=e1052]:
+                    - link "M" [ref=e1053] [cursor=pointer]:
+                      - /url: /user/mert.sahin
+                      - generic "mert.sahin" [ref=e1054]: M
+                    - link "Son ileti" [ref=e1055] [cursor=pointer]:
+                      - /url: /topic/167/mat2011-matematik-iii-çıkmış-vize-sınavı-aralık-2020/1
+                      - text: 1 gün önce
+                  - generic [ref=e1056]:
+                    - link "Son ileti":
+                      - /url: /topic/167/mat2011-matematik-iii-çıkmış-vize-sınavı-aralık-2020/1
+                    - text: "MAT2011 Matematik III dersinin 11 Aralık 2020 tarihli 1. vize sınavı soruları. Tarih: 11 Aralık 2020 Tür: 1. Vize soruları Dosyalar (1): Matematik III – Vize 1 (11 Aralık 2020).pdf"
+            - listitem [ref=e1057]:
+              - generic [ref=e1058]:
+                - generic [ref=e1061]: 
+                - generic [ref=e1062]:
+                  - heading "Akademik" [level=2] [ref=e1063]:
+                    - link "Akademik" [ref=e1064] [cursor=pointer]:
+                      - /url: /category/15/akademik
+                  - paragraph [ref=e1066]: Fakülteler, ders notları ve çıkmış sorular — hepsi burada. Bölümünü seç, başla.
+                  - text:  
+                  - list [ref=e1067]:
+                    - listitem [ref=e1068]:
+                      - generic [ref=e1069]:
+                        - generic [ref=e1070]: 
+                        - link "Akademik & Öğrenci Rehberi" [ref=e1071] [cursor=pointer]:
+                          - /url: /category/8/akademik-öğrenci-rehberi
+              - generic [ref=e1072]:
+                - generic [ref=e1073]:
+                  - generic [ref=e1074]:
+                    - generic "8" [ref=e1075]
+                    - generic [ref=e1076]: Konu
+                    - text: 
+                  - generic [ref=e1077]:
+                    - generic "8" [ref=e1078]
+                    - generic [ref=e1079]: İleti
+                    - text: 
+                - generic [ref=e1082]:
+                  - generic [ref=e1083]:
+                    - link "E" [ref=e1084] [cursor=pointer]:
+                      - /url: /user/enes
+                      - generic "enes" [ref=e1085]: E
+                    - link "Son ileti" [ref=e1086] [cursor=pointer]:
+                      - /url: /topic/117/öğrenci-belgesi-ve-transkript-nereden-alınır-en-hızlı-yol/1
+                      - text: 4 gün önce
+                  - generic [ref=e1087]:
+                    - link "Son ileti":
+                      - /url: /topic/117/öğrenci-belgesi-ve-transkript-nereden-alınır-en-hızlı-yol/1
+                    - text: "Staj başvurusu, burs, askerlik tecili, vize derken sürekli \"öğrenci belgesi\" ya da \"transkript\" isteniyor ve çoğu kişi hâlâ öğrenci işlerine gidip sırada bekliyor. Gerek yok. En hızlısı e-Devlet. turkiye.gov.tr'ye girip YÖK'ün \"Öğrenci Belgesi Sorgulama\" ve \"Transkript Belgesi Sorgulama\" hizmetlerinden belgeyi anında oluşturup PDF indirebiliyorsun. Bu belgelerin üstünde karekod oluyor ve ıslak imza olmasa da resmi kurumların çoğu (bankalar, çoğu şirket, çoğu resmi işlem) bunu kabul ediyor. Saniyeler sürüyor. Bazı yerler ıslak imzalı/mühürlü orijinal belge istiyorsa, o zaman DEBİS üzerinden talep açıyorsun. Burada küçük bir incelik var: belgeyi alacağın günden en az 2 iş günü önce başvurman gerekiyor, anında çıkmıyor. O yüzden ıslak imzalı belge lazım olacağını biliyorsan son güne bırakma. Pratik kural: önce e-Devlet'i dene, isteyen yer \"olmaz, ıslak imzalı olsun\" derse DEBİS'ten talep aç. Bu ikisini bilince öğrenci işleri kuyruğuna neredeyse hiç girmezsin. DEÜ'nün belge duyurusu: https://eng.deu.edu.tr/tr/duyurular/belge-talepleri-duyurusu/"
+            - listitem [ref=e1088]:
+              - generic [ref=e1089]:
+                - generic [ref=e1092]: 
+                - generic [ref=e1093]:
+                  - heading "Genel Sohbet" [level=2] [ref=e1094]:
+                    - link "Genel Sohbet" [ref=e1095] [cursor=pointer]:
+                      - /url: /category/2/genel-sohbet
+                  - paragraph [ref=e1097]: Dersten kantine, sınav stresinden dizi önerisine; aklına geleni konuştuğumuz yer.
+                  - text:  
+              - generic [ref=e1098]:
+                - generic [ref=e1099]:
+                  - generic [ref=e1100]:
+                    - generic "1" [ref=e1101]
+                    - generic [ref=e1102]: Konu
+                    - text: 
+                  - generic [ref=e1103]:
+                    - generic "1" [ref=e1104]
+                    - generic [ref=e1105]: İleti
+                    - text: 
+                - generic [ref=e1108]:
+                  - generic [ref=e1109]:
+                    - link "E" [ref=e1110] [cursor=pointer]:
+                      - /url: /user/enes
+                      - generic "enes" [ref=e1111]: E
+                    - link "Son ileti" [ref=e1112] [cursor=pointer]:
+                      - /url: /topic/1/welcome-to-your-nodebb/1
+                      - text: 14 May 2026 22:19
+                  - generic [ref=e1113]:
+                    - link "Son ileti":
+                      - /url: /topic/1/welcome-to-your-nodebb/1
+                    - text: Welcome to your brand new NodeBB forum! This is what a topic and post looks like. As an administrator, you can edit the post's title and content. To customise your forum, go to the Administrator Control Panel. You can modify all aspects of your forum there, including installation of third-party plugins. Additional Resources NodeBB Documentation Community Support Forum Project repository
+            - listitem [ref=e1114]:
+              - generic [ref=e1115]:
+                - generic [ref=e1118]: 
+                - generic [ref=e1119]:
+                  - heading "Ev Arkadaşı Bulma" [level=2] [ref=e1120]:
+                    - link "Ev Arkadaşı Bulma" [ref=e1121] [cursor=pointer]:
+                      - /url: /category/3/ev-arkadaşı-bulma
+                  - paragraph [ref=e1123]: Ev arkadaşı arayan da, odasına birini arayan da burada denk gelir.
+                  - text:  
+              - generic [ref=e1124]:
+                - generic [ref=e1125]:
+                  - generic [ref=e1126]:
+                    - generic "25" [ref=e1127]
+                    - generic [ref=e1128]: Konu
+                    - text: 
+                  - generic [ref=e1129]:
+                    - generic "51" [ref=e1130]
+                    - generic [ref=e1131]: İleti
+                    - text: 
+                - generic [ref=e1134]:
+                  - generic [ref=e1135]:
+                    - link "B" [ref=e1136] [cursor=pointer]:
+                      - /url: /user/busetur
+                      - generic "busetur" [ref=e1137]: B
+                    - link "Son ileti" [ref=e1138] [cursor=pointer]:
+                      - /url: /topic/32/kız-ev-arkadaşı-arıyorum-buca-da/2
+                      - text: 4 gün önce
+                  - generic [ref=e1139]:
+                    - link "Son ileti":
+                      - /url: /topic/32/kız-ev-arkadaşı-arıyorum-buca-da/2
+                    - text: ben de sağlık bilimlerindeyim adatepe tam istediğim bölgeydi, dm atıyorum
+            - listitem [ref=e1140]:
+              - generic [ref=e1141]:
+                - generic [ref=e1144]: 
+                - generic [ref=e1145]:
+                  - heading "İlan Ver" [level=2] [ref=e1146]:
+                    - link "İlan Ver" [ref=e1147] [cursor=pointer]:
+                      - /url: /category/7/i̇lan-ver
+                  - paragraph [ref=e1149]: Satılık, kiralık, ikinci el ne varsa buraya. Kitaptan hesap makinesine, bulamadığını sor.
+                  - text:  
+              - generic [ref=e1150]:
+                - generic [ref=e1151]:
+                  - generic [ref=e1152]:
+                    - generic "0" [ref=e1153]
+                    - generic [ref=e1154]: Konu
+                    - text: 
+                  - generic [ref=e1155]:
+                    - generic "0" [ref=e1156]
+                    - generic [ref=e1157]: İleti
+                    - text: 
+                - generic [ref=e1161]: Yeni ileti yok
+            - listitem [ref=e1162]:
+              - generic [ref=e1163]:
+                - generic [ref=e1166]: 
+                - generic [ref=e1167]:
+                  - heading "Paylaşımlı Yolculuk" [level=2] [ref=e1168]:
+                    - link "Paylaşımlı Yolculuk" [ref=e1169] [cursor=pointer]:
+                      - /url: /category/4/paylaşımlı-yolculuk
+                  - paragraph [ref=e1171]: Aynı yöne gidenler buluşsun; benzin de bölünür, yol da kısa gelir.
+                  - text:  
+              - generic [ref=e1172]:
+                - generic [ref=e1173]:
+                  - generic [ref=e1174]:
+                    - generic "0" [ref=e1175]
+                    - generic [ref=e1176]: Konu
+                    - text: 
+                  - generic [ref=e1177]:
+                    - generic "0" [ref=e1178]
+                    - generic [ref=e1179]: İleti
+                    - text: 
+                - generic [ref=e1183]: Yeni ileti yok
+          - text:      
+        - generic [ref=e1184]:
+          - generic [ref=e1185]:
+            - generic [ref=e1186]:
+              - generic [ref=e1187]:
+                - img [ref=e1188]
+                - generic [ref=e1193]:
+                  - generic [ref=e1194]: Yemekhane
+                  - generic [ref=e1195]: İzmir Ekonomi Üniversitesi · Haziran 2026
+              - generic [ref=e1196]:
+                - button "Standart" [ref=e1197] [cursor=pointer]:
+                  - img [ref=e1198]
+                  - text: Standart
+                - button "Vegan" [ref=e1201] [cursor=pointer]:
+                  - img [ref=e1202]
+                  - text: Vegan
+            - generic [ref=e1205]:
+              - generic [ref=e1206]:
+                - generic [ref=e1207]: Bugün
+                - generic [ref=e1208]: 15 Haziran 2026
+                - generic [ref=e1209]: Pazartesi
+                - list [ref=e1210]:
+                  - listitem [ref=e1211]:
+                    - generic [ref=e1212]: Etli Bezelye Yemeği
+                  - listitem [ref=e1213]:
+                    - generic [ref=e1214]: Arpa Şehriye Pilavı
+                  - listitem [ref=e1215]:
+                    - generic [ref=e1216]: Yoğurt
+                  - listitem [ref=e1217]:
+                    - generic [ref=e1218]: Turşu
+                  - listitem [ref=e1219]:
+                    - generic [ref=e1220]: Tatlı
+                - generic [ref=e1221]:
+                  - generic [ref=e1222]: Toplam Kalori
+                  - generic [ref=e1223]: 1142 kcal
+              - generic [ref=e1224]:
+                - generic [ref=e1225]: Yarın (sonraki iş günü)
+                - generic [ref=e1226]: 16 Haziran 2026
+                - generic [ref=e1227]: Salı
+                - list [ref=e1228]:
+                  - listitem [ref=e1229]:
+                    - generic [ref=e1230]: Sebzeli Fırın Baget
+                  - listitem [ref=e1231]:
+                    - generic [ref=e1232]: Pirinç Pilavı
+                  - listitem [ref=e1233]:
+                    - generic [ref=e1234]: Ayran
+                  - listitem [ref=e1235]:
+                    - generic [ref=e1236]: Tatlı
+                - generic [ref=e1237]:
+                  - generic [ref=e1238]: Toplam Kalori
+                  - generic [ref=e1239]: 1185 kcal
+            - generic [ref=e1240]: Toplam kaloriye 50 gr ekmek (136 kcal) dahildir.
+          - generic [ref=e1241]: Çevrimiçi Kullanıcılar
+          - link "E enes 6 dakika önce" [ref=e1243] [cursor=pointer]:
+            - /url: /user/enes
+            - generic "enes" [ref=e1244]: E
+            - generic [ref=e1245]:
+              - generic "enes" [ref=e1246]
+              - generic [ref=e1247]: 6 dakika önce
+          - generic [ref=e1248]:
+            - generic [ref=e1249]:
+              - generic [ref=e1251]:
+                - heading "1" [level=4] [ref=e1252]
+                - text: Çevrimiçi
+              - generic [ref=e1254]:
+                - heading "53" [level=4] [ref=e1255]
+                - text: Kullanıcı
+            - generic [ref=e1256]:
+              - generic [ref=e1258]:
+                - heading "115" [level=4] [ref=e1259]
+                - text: Konu
+              - generic [ref=e1261]:
+                - heading "141" [level=4] [ref=e1262]
+                - text: İleti
+    - navigation [ref=e1263]:
+      - menu [ref=e1264]:
+        - menuitem "Giriş" [ref=e1265]:
+          - link "Giriş" [ref=e1266] [cursor=pointer]:
+            - /url: /login
+            - generic [ref=e1269]: 
+        - menuitem "Kayıt Ol" [ref=e1270]:
+          - link "Kayıt Ol" [ref=e1271] [cursor=pointer]:
+            - /url: /register
+            - generic [ref=e1274]: 
+        - text: 
+  - text:                 
+  - tooltip "Genişlet" [ref=e1275]:
+    - generic [ref=e1277]: Genişlet

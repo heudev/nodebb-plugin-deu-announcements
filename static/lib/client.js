@@ -16,10 +16,10 @@ $(document).ready(function () {
 			let visible = 0;
 			$items.each(function () {
 				const show = filter === 'all' || $(this).attr('data-faculty') === filter;
-				$(this).toggleClass('hidden', !show);
+				$(this).toggleClass('d-none', !show);
 				if (show) { visible += 1; }
 			});
-			$filteredEmpty.toggleClass('hidden', visible > 0);
+			$filteredEmpty.toggleClass('d-none', visible > 0);
 		});
 	}
 
