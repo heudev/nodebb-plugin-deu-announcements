@@ -1,9 +1,15 @@
 'use strict';
 
 // Stiller static/style.scss içinde, tema CSS bundle'ına derlenir.
-// Burada iki seviyeli filtreleme: kategori (üst sekme) + kaynak (alt pill).
-$(document).ready(function () {
+// İki seviyeli filtreleme: kategori (üst sekme) + kaynak (alt pill).
+// NodeBB bir SPA olduğundan handler'lar hem ilk yüklemede ($(document).ready)
+// hem de SPA gezinmesinde (action:ajaxify.end) bağlanmalı.
+(function () {
 	function bind(widget) {
+		const el = widget.get(0);
+		if (!el || el.dataset.deuBound === '1') { return; } // çift bağlamayı önle
+		el.dataset.deuBound = '1';
+
 		const $tabs = widget.find('.deu-tab');
 		const $subWrap = widget.find('.deu-subtabs');
 		const $subgroups = widget.find('.deu-subgroup');
@@ -31,7 +37,6 @@ $(document).ready(function () {
 			$tabs.removeClass('active');
 			this.classList.add('active');
 
-			// alt-filtre satırını göster/gizle ve doğru grubu seç
 			$subgroups.addClass('hidden');
 			if (cat === 'all') {
 				$subWrap.addClass('hidden');
@@ -53,7 +58,13 @@ $(document).ready(function () {
 		});
 	}
 
-	$('.deu-announcements').each(function () {
-		bind($(this));
-	});
-});
+	function init() {
+		$('.deu-announcements').each(function () {
+			bind($(this));
+		});
+	}
+
+	$(document).ready(init);
+	// SPA gezinmesi ve widget yüklenmesi sonrası yeniden bağla
+	$(window).on('action:ajaxify.end action:widgets.loaded', init);
+}());
