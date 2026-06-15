@@ -7,9 +7,10 @@
   "hooks": [
     { "hook": "static:app.load", "method": "init" },
     { "hook": "filter:widgets.getWidgets", "method": "defineWidgets" },
+    { "hook": "filter:widget.render:deu-announcements", "method": "renderWidget" },
     { "hook": "filter:admin.header.build", "method": "addAdminNavigation" }
   ],
-  "scripts": ["static/lib/client.js"],
+  "scripts": ["static/lib/client.js", "static/lib/admin.js"],
   "less": ["static/style.less"],
   "templates": "static/templates"
 }
