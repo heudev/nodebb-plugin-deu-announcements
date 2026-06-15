@@ -12,7 +12,7 @@
 						</div>
 						<div class="mb-3">
 							<label class="form-label" for="limit">Gösterilecek duyuru sayısı</label>
-							<input type="number" min="1" id="limit" name="limit" class="form-control" placeholder="15">
+							<input type="number" min="1" id="limit" name="limit" class="form-control" placeholder="60">
 						</div>
 						<div class="mb-3">
 							<label class="form-label" for="defaultFaculty">Varsayılan "Fakültem"</label>

@@ -73,7 +73,7 @@ plugin.defineWidgets = async function (widgets) {
 
 plugin.renderWidget = async function (widget) {
   const settings = (await meta.settings.get(SETTINGS_HASH)) || {};
-  const limit = Math.max(1, parseInt(settings.limit, 10) || 15);
+  const limit = Math.max(1, parseInt(settings.limit, 10) || 60);
   const defaultFaculty = (widget.data && widget.data.defaultFaculty) || settings.defaultFaculty || '';
   const now = Date.now();
 
