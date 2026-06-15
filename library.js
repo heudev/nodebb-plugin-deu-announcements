@@ -72,9 +72,20 @@ plugin.renderWidget = async function (widget) {
     relativeDate: a.date ? relativeDate(a.date, now) : '',
   }));
 
+  // Görünen duyurulardaki benzersiz kaynaklardan sekme üret (ilk görülme sırasıyla)
+  const seen = new Set();
+  const tabs = [];
+  announcements.forEach((a) => {
+    if (!seen.has(a.faculty)) {
+      seen.add(a.faculty);
+      tabs.push({ id: a.faculty, name: a.sourceName });
+    }
+  });
+
   widget.html = await renderTemplate('widgets/deu-announcements', {
     title: (widget.data && widget.data.title) || 'DEÜ Duyuruları',
     announcements,
+    tabs,
     hasAnnouncements: announcements.length > 0,
     hasFaculty: !!defaultFaculty,
     defaultFaculty,
