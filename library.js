@@ -82,11 +82,22 @@ plugin.renderWidget = async function (widget) {
     relativeDate: a.date ? relativeDate(a.date, now) : '',
   }));
 
-  // Kategori bazlı sekmeler (sabit sıra + etiket), yalnızca veri olanlar
+  // Kategori sekmeleri (sabit sıra). 'ana' sekmesi yok — tek kaynak, Tümü'de görünür.
+  // Her kategori altında o kategoriye ait kaynaklar (alt-filtre) listelenir.
   const present = new Set(announcements.map(a => a.category));
   const tabs = CATEGORY_ORDER
-    .filter(c => present.has(c.id))
-    .map(c => ({ id: c.id, name: c.name }));
+    .filter(c => c.id !== 'ana' && present.has(c.id))
+    .map((c) => {
+      const seen = new Set();
+      const subs = [];
+      announcements.forEach((a) => {
+        if (a.category === c.id && !seen.has(a.faculty)) {
+          seen.add(a.faculty);
+          subs.push({ id: a.faculty, name: a.sourceName });
+        }
+      });
+      return { id: c.id, name: c.name, sources: subs };
+    });
 
   widget.html = await renderTemplate('widgets/deu-announcements', {
     title: (widget.data && widget.data.title) || 'DEÜ Duyuruları',

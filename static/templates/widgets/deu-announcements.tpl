@@ -15,10 +15,21 @@
 		<!-- END tabs -->
 	</div>
 
+	<div class="deu-subtabs hidden">
+		<!-- BEGIN tabs -->
+		<div class="deu-subgroup hidden" data-category="{tabs.id}">
+			<button type="button" class="deu-subtab active" data-sub="all">Tümü</button>
+			<!-- BEGIN tabs.sources -->
+			<button type="button" class="deu-subtab" data-sub="{tabs.sources.id}">{tabs.sources.name}</button>
+			<!-- END tabs.sources -->
+		</div>
+		<!-- END tabs -->
+	</div>
+
 	<!-- IF hasAnnouncements -->
 	<ul class="deu-list">
 		<!-- BEGIN announcements -->
-		<li class="deu-item deu-c-{announcements.category}" data-category="{announcements.category}">
+		<li class="deu-item deu-c-{announcements.category}" data-category="{announcements.category}" data-faculty="{announcements.faculty}">
 			<a class="deu-item-title" href="{announcements.link}" target="_blank" rel="noopener noreferrer">{announcements.title}</a>
 			<span class="deu-meta">
 				<span class="deu-dot"></span>
@@ -30,7 +41,7 @@
 	</ul>
 	<div class="deu-empty deu-empty-filtered hidden">
 		<i class="fa fa-filter"></i>
-		<p>Bu sekmede duyuru yok.</p>
+		<p>Bu seçimde duyuru yok.</p>
 	</div>
 	<!-- ELSE -->
 	<div class="deu-empty">
