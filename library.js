@@ -73,7 +73,9 @@ plugin.defineWidgets = async function (widgets) {
 
 plugin.renderWidget = async function (widget) {
   const settings = (await meta.settings.get(SETTINGS_HASH)) || {};
-  const limit = Math.max(1, parseInt(settings.limit, 10) || 60);
+  // Varsayılan: tümünü render et (kategori/kaynak filtresi tüm duyuruları görebilsin).
+  // Round-robin sıralama "Tümü" görünümünde çeşitliliği korur. Admin ACP'den kısabilir.
+  const limit = Math.max(1, parseInt(settings.limit, 10) || 1000);
   const defaultFaculty = (widget.data && widget.data.defaultFaculty) || settings.defaultFaculty || '';
   const now = Date.now();
 
